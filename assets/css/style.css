@@ -190,6 +190,39 @@ footer {
     width: 100%;
 }
 
+/* Research Paper Section */
+.research-paper {
+    margin-top: 2rem;
+}
+
+.pdf-viewer {
+    background: #2d2d2d;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.download-link {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.download-link a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #66b3ff;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-link a:hover {
+    background: #3399ff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .profile-container {
@@ -199,5 +232,9 @@ footer {
     .profile-image {
         max-width: 300px;
         margin: 0 auto;
+    }
+    
+    .pdf-viewer {
+        height: 400px;
     }
 }
