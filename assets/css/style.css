@@ -150,8 +150,7 @@ h1, h2 {
 
 .project-gallery-grid img {
     width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: contain;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -165,7 +164,9 @@ h1, h2 {
 
 .video-container video {
     width: 100%;
+    height: 100%;
     display: block;
+    object-fit: contain;
 }
 
 .video-placeholder {
