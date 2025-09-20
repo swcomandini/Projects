@@ -145,12 +145,13 @@ h1, h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .project-gallery-grid img {
     width: 100%;
     aspect-ratio: 16 / 9;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
 }
 
@@ -159,6 +160,7 @@ h1, h2 {
     background: #2d2d2d;
     border-radius: 8px;
     overflow: hidden;
+    aspect-ratio: 16 / 9;
 }
 
 .video-container video {
